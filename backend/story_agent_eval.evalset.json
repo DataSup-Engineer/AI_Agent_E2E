@@ -1,0 +1,57 @@
+{
+  "eval_set_id": "story_agent_comprehensive_evalset",
+  "name": "Story Agent Comprehensive Evaluation Set",
+  "description": "Comprehensive evaluation scenarios for story_agent covering various keyword combinations, edge cases, and story quality metrics",
+  "eval_cases": [
+    {
+      "invocation_id": "case_1",
+      "user_content": [
+        {
+          "text": "tiny robot, lost kitten, rainy city"
+        }
+      ],
+      "expected_response": {
+        "story": "In a shimmering city where rain always fell, a tiny brass robot named Rusty found a shivering kitten tucked behind a neon sign. Rusty shared his umbrella-hat, and together they navigated the glowing streets to find the kitten's home. In the end, they became the best of friends, proving that even in a cold city, warmth can be found.",
+        "main_characters": [
+          {
+            "name": "Rusty",
+            "description": "A small, round robot made of polished brass with glowing blue circular eyes and a single antennae with a red tip."
+          },
+          {
+            "name": "Whiskers",
+            "description": "A tiny, fluffy orange kitten with white paws and big, curious green eyes."
+          }
+        ],
+        "scenes": [
+          {
+            "index": 1,
+            "title": "The Setup",
+            "description": "A dark, rainy alleyway in a futuristic city with neon lights reflecting in puddles.",
+            "text": "Rusty the robot was trundling through the neon-lit puddles of the rainy city."
+          },
+          {
+            "index": 2,
+            "title": "The Inciting Incident",
+            "description": "Rusty discovers a small shivering kitten behind a glowing sign.",
+            "text": "Behind a flickering blue sign, Rusty heard a faint meow and saw a tiny kitten."
+          },
+          {
+            "index": 3,
+            "title": "The Climax",
+            "description": "Rusty and the kitten brave a heavy downpour together.",
+            "text": "The rain turned into a downpour, but Rusty used his metal frame to shield his new friend."
+          },
+          {
+            "index": 4,
+            "title": "The Resolution",
+            "description": "Rusty and the kitten at home, safe and dry.",
+            "text": "They reached a cozy shelter, where they both fell asleep, safe from the storm."
+          }
+        ]
+      },
+      "session_input": {
+        "app_name": "story_agent"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "response_match_score": 0.7,
+    "tool_trajectory_avg_score": 1.0
+  },
+  "custom_evaluators": [
+    {
+      "name": "json_structure_validator",
+      "description": "Validates required fields, scene count, and character fields"
+    },
+    {
+      "name": "story_quality_metrics",
+      "description": "Word count 80-250, keyword integration threshold 0.8"
+    }
+  ],
+  "evaluation_notes": "Story agent specifics and trajectory expectations. No tools expected."
+}

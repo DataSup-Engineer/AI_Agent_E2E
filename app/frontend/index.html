@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StoryGen AI - Children's Storybook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>✨ StoryGen AI</h1>
+            <p>Create magical stories with AI</p>
+        </header>
+
+        <main>
+            <section class="input-section">
+                <input type="text" id="keywords" placeholder="Enter keywords (e.g., tiny robot, lost kitten, rainy city)...">
+                <button id="generate-btn">Generate Story</button>
+            </section>
+
+            <section id="status-bar" class="hidden">
+                <div class="spinner"></div>
+                <p id="status-text">Starting magic...</p>
+            </section>
+
+            <section id="story-display" class="hidden">
+                <div id="story-meta">
+                    <h2 id="story-title"></h2>
+                    <div id="characters"></div>
+                </div>
+                <div id="scenes-container"></div>
+            </section>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
