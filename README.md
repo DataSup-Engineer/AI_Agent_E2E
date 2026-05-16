@@ -1,4 +1,4 @@
-# StoryGen AI - SDLC Workshop Project
+# StoryGen AI - Workshop Project
 
 This project is a full-stack AI application that generates children's stories and illustrations using Google's Agent Development Kit (ADK), Gemini, and Imagen.
 
@@ -6,7 +6,7 @@ This project is a full-stack AI application that generates children's stories an
 - **AI Story Generation**: Uses Gemini 2.5 Flash to create structured 4-scene stories.
 - **AI Image Generation**: Uses Imagen via a custom ADK agent to create illustrations for each scene.
 - **WebSocket Communication**: Real-time updates as the story and images are being generated.
-- **Premium UI**: A sleek, dark-themed interface for an immersive experience.
+- A sleek, dark-themed interface for an immersive experience.
 
 ## Project Structure
 - `backend/`: Python FastAPI backend.
