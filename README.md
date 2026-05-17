@@ -1,4 +1,4 @@
-# StoryGen AI - Workshop Project
+# StoryGen AI - Project
 
 This project is a full-stack AI application that generates children's stories and illustrations using Google's Agent Development Kit (ADK), Gemini, and Imagen.
 
